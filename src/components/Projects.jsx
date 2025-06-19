@@ -17,7 +17,7 @@ import reactImg5 from '../assets/nodereact.png'
 import reactImg6 from '../assets/nodereact.png'
 import reactImg9 from '../assets/nodereact.png'
 import reactAuth from '../assets/nodereactAuth.png'
-import reactAuth2 from '../assets/nodereactAuth3.png'
+import reactAuth2 from '../assets/nodereactauth3.png'
 
 const laravelImages = [
   { src: laravelImg, alt: "laravel" },
