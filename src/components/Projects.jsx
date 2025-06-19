@@ -15,7 +15,6 @@ import reactImg3 from '../assets/nodereact3.png'
 import reactImg4 from '../assets/nodereact4.png'
 import reactImg5 from '../assets/nodereact5.png'
 import reactImg6 from '../assets/nodereact6.png'
-import reactImg9 from '../assets/nodereact2.png'
 import reactAuth from '../assets/nodereactAuth.png'
 import reactAuth2 from '../assets/nodereactauth3.png'
 
@@ -37,7 +36,6 @@ const reactImages = [
   { src: reactImg4, alt: "Node+React" },
   { src: reactImg5, alt: "Node+React" },
   { src: reactImg6, alt: "Node+React" },
-  { src: reactImg9, alt: "Node+React" },
   { src: reactAuth, alt: "Node+React" },
   { src: reactAuth2, alt: "Node+React" },
   
