@@ -99,15 +99,15 @@ export default function Projects() {
   return (
     <section id="project" className="project">
       {/* Main Section Header */}
-      <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-        <h2 style={{ color: '#1a73e8', fontSize: '2.5rem', fontWeight: 'bold' }}>
+      <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+        <h2 style={{ color: '#1a73e8', fontSize: 'clamp(2rem, 4vw, 2.5rem)', fontWeight: 'bold' }}>
           <i className="bx bx-rocket" style={{ marginRight: '0.5rem', color: '#1a73e8' }}></i>
           Personal Projects
         </h2>
       </div>
 
       {/* ShopTime Ecommerce Project */}
-      <div className="project-flex" style={{ border: '2px solid #1a73e8', borderRadius: '10px', padding: '2rem', marginBottom: '2rem' }}>
+      <div className="project-flex" style={{ border: '2px solid #1a73e8', borderRadius: '10px', padding: '1.5rem', marginBottom: '1.5rem' }}>
         <div className="project-info">
           <h3 style={{ color: 'black' }}>ShopTime Ecommerce Website</h3>
           <p>
@@ -119,7 +119,7 @@ export default function Projects() {
             </ul>
           </p>
         </div>
-        <div className="project-gallery" style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
+        <div className="project-gallery" style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
           {/* Laravel Images Slider */}
           <div className="project-img-card" style={{ position: 'relative', width: '100%', maxWidth: 510, margin: '0 auto'}}>
             <button
@@ -146,20 +146,21 @@ export default function Projects() {
             >
               <FaChevronLeft />
             </button>
-            <h3>Laravel (PHP Framework) </h3>
+            <h3>Laravel (PHP Framework)</h3>
             <img
               src={laravelImages[laravelSlider.current].src}
               alt={laravelImages[laravelSlider.current].alt}
               style={{
                 width: '100%',
                 maxWidth: 510,
-                height: 240,
+                height: 'clamp(180px, 30vw, 240px)',
                 objectFit: 'cover',
                 borderRadius: 10,
                 boxShadow: '0 4px 24px rgba(26, 115, 232, 0.10)',
                 background: '#fff',
                 transition: 'box-shadow 0.2s, transform 0.2s',
               }}
+              onClick={() => window.open(laravelImages[laravelSlider.current].src, '_blank')}
             />
             <button
               aria-label="Next"
@@ -212,20 +213,21 @@ export default function Projects() {
             >
               <FaChevronLeft />
             </button>
-            <h3>Node+React </h3>
+            <h3>Node+React</h3>
             <img
               src={reactImages[reactSlider.current].src}
               alt={reactImages[reactSlider.current].alt}
               style={{
                 width: '100%',
                 maxWidth: 510,
-                height: 240,
+                height: 'clamp(180px, 30vw, 240px)',
                 objectFit: 'cover',
                 borderRadius: 10,
                 boxShadow: '0 4px 24px rgba(26, 115, 232, 0.10)',
                 background: '#fff',
                 transition: 'box-shadow 0.2s, transform 0.2s',
               }}
+              onClick={() => window.open(reactImages[reactSlider.current].src, '_blank')}
             />
             <button
               aria-label="Next"
@@ -256,7 +258,7 @@ export default function Projects() {
       </div>
 
       {/* Patient & Visit Management Section */}
-      <div className="project-flex" style={{ marginTop: '4rem', border: '2px solid #1a73e8', borderRadius: '10px', padding: '2rem' }}>
+      <div className="project-flex" style={{ marginTop: '2rem', border: '2px solid #1a73e8', borderRadius: '10px', padding: '1.5rem' }}>
         <div className="project-info">
           <h3 style={{ color: 'black' }}>Patient & Visit Management</h3>
           
@@ -273,7 +275,7 @@ export default function Projects() {
             </ul>
           </p>
         </div>
-        <div className="project-gallery" style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
+        <div className="project-gallery" style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
           {/* Patient Management Images Slider */}
           <div className="project-img-card" style={{ position: 'relative', width: '100%', maxWidth: 510, margin: '0 auto'}}>
             <button
@@ -307,13 +309,14 @@ export default function Projects() {
               style={{
                 width: '100%',
                 maxWidth: 510,
-                height: 240,
+                height: 'clamp(300px, 30vw, 240px)',
                 objectFit: 'cover',
                 borderRadius: 10,
                 boxShadow: '0 4px 24px rgba(26, 115, 232, 0.10)',
                 background: '#fff',
                 transition: 'box-shadow 0.2s, transform 0.2s',
               }}
+              onClick={() => window.open(pmanagementImages[pmanagementSlider.current].src, '_blank')}
             />
             <button
               aria-label="Next"
