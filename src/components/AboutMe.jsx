@@ -12,7 +12,7 @@ export default function AboutMe() {
           I am a Web Developer and graduating BSCS with a strong interest in creating websites that are user-friendly and effective. I am committed to producing quality work and value being part of a team where I can contribute and grow professionally.
         </p>
         <div className="btn-group">
-          <a href="/assets/Resume-jeff-adlawan.jpg" target="_blank" rel="noopener noreferrer" className="btn btn-glow">View Resume</a>
+          <a href="/assets/Resume-jeff-adlawan1.jpg" target="_blank" rel="noopener noreferrer" className="btn btn-glow">View Resume</a>
           <a href="#contact" className="btn btn-outline btn-glow">Contact Me</a>
         </div>
       </div>
