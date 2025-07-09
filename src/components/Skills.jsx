@@ -7,11 +7,15 @@ import css from '../assets/css-3.png'
 import php from '../assets/php-programming-language.png'
 import sql from '../assets/sql-server.png'
 import java from '../assets/file.png'
+import next from '../assets/icons8-nextjs.svg'
+import angular from '../assets/icons8-angular.svg' 
 
 const skills = [
   { img: laravel, label: "Laravel" },
   { img: node, label: "Node" },
   { img: react, label: "React" },
+  { img: next, label: "Next.js" },
+  { img: angular, label: "Angular" },
   { img: html, label: "HTML" },
   { img: css, label: "CSS" },
   { img: php, label: "PHP" },
